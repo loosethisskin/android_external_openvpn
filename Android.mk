@@ -76,6 +76,7 @@ common_SRC_FILES:= \
 	android.c android.h
 
 common_CFLAGS += -DANDROID_CHANGES
+common_CFLAGS += -fno-strict-aliasing
 
 common_C_INCLUDES += \
 	external/openssl \
